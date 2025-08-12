@@ -15,7 +15,7 @@ urlpatterns = [
         name="driver-detail",
     ),
     path(
-        "manufacturer/",
+        "manufacturers/",
         ManufacturerListView.as_view(),
         name="manufacturer-list",
     ),
